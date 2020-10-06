@@ -3,8 +3,6 @@ import sys
 import logging
 import time
 
-# INFO FOR YOU TO ENTER
-# ----------------------------------------------------------------
 USERNAME = "email"
 PASSWORD = "password"
 PATH_TO_CHROME_DRIVER = "/path/to/chromedriver"
@@ -13,7 +11,6 @@ data = [
     "desc": "This is a new description that I'd like to enter!!"
     },
 ]
-# ----------------------------------------------------------------
 
 #create log file
 logging.basicConfig(filename='auto-desc.log')
