@@ -5,11 +5,11 @@ import time
 
 # INFO FOR YOU TO ENTER
 # ----------------------------------------------------------------
-USERNAME = "aszombieas08@gmail.com"
-PASSWORD = "kingChatter01"
-PATH_TO_CHROME_DRIVER = "/Users/aarenstade/Documents/chromedriver"
+USERNAME = "email"
+PASSWORD = "password"
+PATH_TO_CHROME_DRIVER = "/path/to/chromedriver"
 data = [
-    {"url": "https://www.youtube.com/watch?v=xCQR_bXGiAM",
+    {"url": "https://youtube.com/videolink",
     "desc": "This is a new description that I'd like to enter!!"
     },
 ]
