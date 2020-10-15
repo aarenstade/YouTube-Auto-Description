@@ -58,6 +58,7 @@ for i in range(len(data)):
         time.sleep(1)
         edit_button = d.find_element_by_xpath("/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[2]/ul/li[1]/ytcp-ve/a/paper-icon-item/div[1]/iron-icon")
         edit_button.click()
+        time.sleep(1)
         # change description
         desc_field = d.find_element_by_xpath("/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[9]/ytcp-video-metadata-editor-section/ytcp-video-metadata-editor-old/div/ytcp-animatable/ytcp-video-metadata-basics-old/div/div[1]/div[2]/ytcp-mention-textbox/ytcp-form-input-container/div[1]/div[2]/ytcp-mention-input/div")
         desc_field.clear()
@@ -68,3 +69,5 @@ for i in range(len(data)):
     except:
         error = str(sys.exc_info()[0])
         logError(url, desc, error)
+
+d.quit()
